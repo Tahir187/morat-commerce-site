@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar"
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 function App() {
 
   return (
     <>
+    <BrowserRouter>
       <Navbar />
-      <h1 className="text-center text-2xl">Morat Shop</h1>
+    </BrowserRouter>
     </>
   )
 }
