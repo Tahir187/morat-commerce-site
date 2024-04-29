@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex  justify-around items-center bg-[#b0b0ae5a] p-3">
+    <nav className="flex  justify-around items-center bg-[#b0b0ae5a] p-3 sticky top-0">
       <div className="left__navbar flex justify-between gap-20 items-center">
         <img src={logo} alt="morat logo" className="w-14 rounded-full" />
         <ul className="flex gap-5 text-xl font-bold uppercase">
