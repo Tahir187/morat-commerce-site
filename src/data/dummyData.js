@@ -91,7 +91,8 @@ export const men = [
     category: "Men",
     images: ["https://m.media-amazon.com/images/I/61pXvLY9wJL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/61ttgJEwY5L._AC_SX522_.jpg"],
     color: ['Black', 'Cardinal Red'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "summer"
   },
   {
     "id":2,
@@ -101,7 +102,8 @@ export const men = [
     category: "Men",
     images: ["https://m.media-amazon.com/images/I/51hJxSfIaUL._AC_SY445_.jpg", "https://m.media-amazon.com/images/I/81o2yxLA0kL._AC_SY445_.jpg"],
     color: ['Navy', 'Black Heather'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "summer"
   },
   {
     "id":3,
@@ -111,7 +113,8 @@ export const men = [
     category: "Men",
     images: ["https://m.media-amazon.com/images/I/71fm1sM6ZJL._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/61sSqFQRCBL._AC_SX385_.jpg"],
     color: ['Blue Blazer', 'White Cap'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "winter"
   },
   {
     "id":4,
@@ -121,7 +124,8 @@ export const men = [
     category: "Men",
     images: ["https://m.media-amazon.com/images/I/61kah+Tl+9L._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/51kv+lavOfL._AC_SX385_.jpg"],
     color: ['Steel Heather', 'Marine Green'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "summer"
   },
 ];
 
@@ -134,7 +138,8 @@ export const women = [
     category: "Women",
     images: ["https://m.media-amazon.com/images/I/719c1IxhrlL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/71kIBYCDMFL._AC_SX342_.jpg", ],
     color: ['Black', 'Oatmeal Heather'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "winter"
   },
   {
     "id":2,
@@ -144,7 +149,8 @@ export const women = [
     category: "Women",
     images: ["https://m.media-amazon.com/images/I/61d9p3PAR+L._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/81xEEJm-koL._AC_SX342_.jpg", ],
     color: ['Black', 'Iceberg'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "summer"
   },
   {
     "id":3,
@@ -154,7 +160,8 @@ export const women = [
     category: "Women",
     images: ["https://m.media-amazon.com/images/I/81W7dXAK4QL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/81h-UDqVeYL._AC_SX342_.jpg" ],
     color: ['Coral Red', 'Dusty Navy'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "summer"
   },
   {
     "id":4,
@@ -164,7 +171,8 @@ export const women = [
     category: "Women",
     images: ["https://m.media-amazon.com/images/I/716DeQPeSPL._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/71iSmcHZwbL._AC_SX385_.jpg" ],
     color: ['Pale Pink', ' Navy Heather'],
-    size: ['XS', "S", "M", "L", "XL"]
+    size: ['XS', "S", "M", "L", "XL"],
+    type: "summer"
   },
 
 ];
@@ -178,7 +186,8 @@ export const kids = [
     category: "kid",
     images: ["https://m.media-amazon.com/images/I/81r0GjdCXQL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/81VsCxdznFL._AC_SX342_.jpg"],
     color: ['Green', 'Pink Stripe'],
-    size: ['2T', "3T", "4T", "5T"]
+    size: ['2T', "3T", "4T", "5T"],
+    type: "winter"
   },
   {
     "id":2,
@@ -188,7 +197,8 @@ export const kids = [
     category: "kid",
     images: ["https://m.media-amazon.com/images/I/71S3x3Xi-QL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/61ERNUtPT-L._AC_SX342_.jpg"],
     color: ['Gumdrop', 'Sun Valley'],
-    size: ['2T', "3T", "4T", "5T"]
+    size: ['2T', "3T", "4T", "5T"],
+    type: "winter"
   },
   {
     "id":3,
@@ -198,7 +208,8 @@ export const kids = [
     category: "kid",
     images: ["https://m.media-amazon.com/images/I/914QpiX1aDL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/6120OqdLRLL._AC_SX342_.jpg"],
     color: ['Midnight Navy', 'Black'],
-    size: ['2T', "3T", "4T", "5T"]
+    size: ['2T', "3T", "4T", "5T"],
+    type: "summer"
   },
   {
     "id":4,
@@ -208,6 +219,7 @@ export const kids = [
     category: "kid",
     images: ["https://m.media-amazon.com/images/I/81OUwGBVYQL._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/714ByCDaK8L._AC_SX385_.jpg"],
     color: ['White', 'Black'],
-    size: ['2T', "3T", "4T", "5T"]
+    size: ['2T', "3T", "4T", "5T"],
+    type: "summer"
   },
 ];
