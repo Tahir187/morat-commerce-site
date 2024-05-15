@@ -1,6 +1,6 @@
 export const trending = [
   {
-    "id":1,
+    id:1,
     title: "Black Tee",
     price: 30,
     rating: 4.5,
@@ -10,7 +10,7 @@ export const trending = [
     size: ['XS', "S", "M", "L", "XL"]
   },
   {
-    "id":2,
+    id:2,
     title: "Beigh Tee",
     price: 40,
     rating: 4.00,
@@ -20,7 +20,7 @@ export const trending = [
     size: ['XS', "S", "M", "L", "XL"]
   },
   {
-    "id":3,
+    id:3,
     title: "Flower Tee",
     price: 25,
     rating: 5.00,
@@ -30,7 +30,7 @@ export const trending = [
     size: ['XS', "S", "M", "L", "XL"]
   },
   {
-    "id":4,
+    id:4,
     title: "Cheak Tee",
     price: 30,
     rating: 5.00,
@@ -40,7 +40,7 @@ export const trending = [
     size: ['XS', "M"]
   },
   {
-    "id":5,
+    id:5,
     title: "Sun Tee",
     price: 40,
     rating: 5.00,
@@ -50,7 +50,7 @@ export const trending = [
     size: ["XS", "S", "M", "L", "XL"]
   },
   {
-    "id":6,
+    id:6,
     title: "Mashrom Tee",
     price: 40,
     rating: 5.00,
@@ -60,7 +60,7 @@ export const trending = [
     size: ["XS", "S", "M", "L", "XL"]
   },
   {
-    "id":7,
+    id:7,
     title: "White Tee",
     price: 40,
     rating: 5.00,
@@ -70,7 +70,7 @@ export const trending = [
     size: ["XS", "S", "M", "L", "XL"]
   },
   {
-    "id":8,
+    id:8,
     title: "Chess Tee",
     price: 40,
     rating: 5.00,
@@ -84,46 +84,46 @@ export const trending = [
 
 export const men = [
   {
-    "id":1,
+    id:1,
     title: "Gildan Crew",
     price: 30,
-    rating: 4.5,
+    rating: 4,
     category: "Men",
-    images: ["https://m.media-amazon.com/images/I/61pXvLY9wJL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/61ttgJEwY5L._AC_SX522_.jpg"],
-    color: ['Black', 'Cardinal Red'],
+    image: "https://www.wordans.ie/files/model_specifications/2016/6/17/282847/282847_original.png?1673622504",
+    color: ['Black'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
   {
-    "id":2,
+    id:2,
     title: "Fruit Loom",
     price: 30,
-    rating: 4.5,
+    rating: 4,
     category: "Men",
-    images: ["https://m.media-amazon.com/images/I/51hJxSfIaUL._AC_SY445_.jpg", "https://m.media-amazon.com/images/I/81o2yxLA0kL._AC_SY445_.jpg"],
-    color: ['Navy', 'Black Heather'],
+    image: 'https://www.lawson-his.co.uk/media/catalog/product/cache/1/image/1200x/040ec09b1e35df139433887a97daa66f/6/1/x61082.jpg.pagespeed.ic.mI9-13HwTb.jpg',
+    color: ['Navy'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
   {
-    "id":3,
+    id:3,
     title: "Vineyard Vines",
     price: 30,
     rating: 4,
     category: "Men",
-    images: ["https://m.media-amazon.com/images/I/71fm1sM6ZJL._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/61sSqFQRCBL._AC_SX385_.jpg"],
-    color: ['Blue Blazer', 'White Cap'],
+    image: 'https://kriziamartin.com/cdn/shop/products/Screen_Shot_2019-03-07_at_7.46.35_PM.png?v=1552006394',
+    color: ['White Cap'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "winter"
   },
   {
-    "id":4,
+    id:4,
     title: "Under Armour",
     price: 30,
     rating: 5,
     category: "Men",
-    images: ["https://m.media-amazon.com/images/I/61kah+Tl+9L._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/51kv+lavOfL._AC_SX385_.jpg"],
-    color: ['Steel Heather', 'Marine Green'],
+    image: 'https://img01.ztat.net/article/spp-media-p1/2de8fc6caffe437494e4f1365698c9de/9b48c16642374d6cb89593e5c2759636.jpg?imwidth=1800',
+    color: ['Marine Green'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
@@ -131,7 +131,7 @@ export const men = [
 
 export const women = [
   {
-    "id":1,
+    id:1,
     title: "Fleece Pullover Hoodie",
     price: 30,
     rating: 4.5,
@@ -142,7 +142,7 @@ export const women = [
     type: "winter"
   },
   {
-    "id":2,
+    id:2,
     title: "Women's Benton",
     price: 30,
     rating: 4.5,
@@ -153,7 +153,7 @@ export const women = [
     type: "summer"
   },
   {
-    "id":3,
+    id:3,
     title: "MEROKEETY Shirt",
     price: 30,
     rating: 4.5,
@@ -164,7 +164,7 @@ export const women = [
     type: "summer"
   },
   {
-    "id":4,
+    id:4,
     title: "Hanes Crewneck",
     price: 30,
     rating: 4.5,
@@ -179,7 +179,7 @@ export const women = [
 
 export const kids = [
   {
-    "id":1,
+    id:1,
     title: "Toddler Sleeve",
     price: 30,
     rating: 4.5,
@@ -190,7 +190,7 @@ export const kids = [
     type: "winter"
   },
   {
-    "id":2,
+    id:2,
     title: "Layering Tee",
     price: 30,
     rating: 4.5,
@@ -201,7 +201,7 @@ export const kids = [
     type: "winter"
   },
   {
-    "id":3,
+    id:3,
     title: "Under Armour",
     price: 30,
     rating: 4.5,
@@ -212,7 +212,7 @@ export const kids = [
     type: "summer"
   },
   {
-    "id":4,
+    id:4,
     title: "Puma",
     price: 30,
     rating: 4.5,

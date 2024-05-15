@@ -22,6 +22,7 @@ const productsSlice = createSlice({
   initialState,
 
   reducers: {
+    // multiple filters will be added
     setFilters(state, action) {
         const {filterType, value} = action.payload;
 
@@ -86,31 +87,31 @@ const filterProducts = (state) => {
     const {products, filters} = state;
     let filteredList = products;
 
-    if(filters.category.length){
+    if(filters?.category?.length){
         filteredList = filteredList.filter((product) =>
-            filters.category.includes(product.category)
+            filters?.category?.includes(product?.category)
           );
     }
-    if(filters.type.length){
-        filteredList = filteredList.filter((product) => filters.type.includes(product.type));
+    if(filters?.type?.length){
+        filteredList = filteredList.filter((product) => filters?.type?.includes(product?.type));
     }
-    if(filters.color.length){
-        filteredList = filteredList.filter((product) => filters.color.includes(product.color));
+    if(filters?.color?.length){
+        filteredList = filteredList.filter((product) => filters?.color?.includes(product?.color));
     }
-    if(filters.size.length){
-        filteredList = filteredList.filter((product) => filters.size.includes(product.size));
+    if(filters?.size?.length){
+        filteredList = filteredList.filter((product) => filters?.size?.includes(product?.size));
     }
-    if(filters.price){
-        filteredList = filteredList.filter((product) => filters.price.includes(product.price));
+    if(filters?.price){
+        filteredList = filteredList.filter((product) => filters?.price?.includes(product?.price));
     }
 
 
-    if(filters.search){
-        const searchTerm = filters.search.toLowerCase();
+    if(filters?.search){
+        const searchTerm = filters?.search?.toLowerCase();
         filteredList = filteredList.filter((product) => {
-            const title = product.title.toLowerCase();
-            const type = product.type ? product.type.toLowerCase() : '';
-            return title.includes(searchTerm || type.includes(searchTerm));
+            const title = product?.title?.toLowerCase();
+            const type = product?.type ? product?.type?.toLowerCase() : '';
+            return title?.includes(searchTerm || type?.includes(searchTerm));
         });
     }
 

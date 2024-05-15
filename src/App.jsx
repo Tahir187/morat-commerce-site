@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import TrendingPage from "./components/TrendingPage"
+import MenPage from "./pages/MenPage"
 function App() {
 
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <TrendingPage />
+      <MenPage />
     </BrowserRouter>
     </>
   )
