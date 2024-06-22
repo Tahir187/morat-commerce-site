@@ -12,7 +12,6 @@ const Rating = ({ rating }) => {
           size={20}
           key={index}
           className={index < filledStars ? "text-[#fae421]" : "text-gray-400"} 
-          flex
         />
       ))}
     </div>

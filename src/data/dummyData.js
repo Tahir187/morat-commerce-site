@@ -5,8 +5,8 @@ export const trending = [
     price: 30,
     rating: 4.5,
     category: "Men",
-    images: ["https://bluesoul.store/cdn/shop/products/4a.jpg?v=1677429243", "https://bluesoul.store/cdn/shop/products/1.png?v=1677940047", ],
-    color: ['Black', 'Sage green'],
+    image: "https://www.wordans.ie/files/model_specifications/2016/6/17/282847/282847_original.png?1673622504", 
+    color: ['Black'],
     size: ['XS', "S", "M", "L", "XL"]
   },
   {
@@ -15,7 +15,7 @@ export const trending = [
     price: 40,
     rating: 4.00,
     category: "Men",
-    images: ["https://bluesoul.store/cdn/shop/products/4a.jpg?v=1677429243", "https://bluesoul.store/cdn/shop/products/1.png?v=1677940047", ],
+    image: "https://www.luxuryformen.com/media/catalog/product/cache/59c05a363ebb999de8d751c6aa10215f/i/r/iro_woon_tshirt_beige.jpg", 
     color: ['Black'],
     size: ['XS', "S", "M", "L", "XL"]
   },
@@ -25,8 +25,8 @@ export const trending = [
     price: 25,
     rating: 5.00,
     category: "Men",
-    images: ["https://stealplug.com.my/cdn/shop/files/3_29d8cccb-5b07-4a33-b6c7-a3751f3c0c0e.png?v=1691045290&width=1100", "https://www.woodwood.com/images/38148/product_large.jpg", ],
-    color: ['Black', 'Smoke'],
+    image: "https://www.norsestore.com/shared/159/160/stuessy-flower-tee_580x690c.jpg", 
+    color: ['Smoke'],
     size: ['XS', "S", "M", "L", "XL"]
   },
   {
@@ -35,8 +35,8 @@ export const trending = [
     price: 30,
     rating: 5.00,
     category: "Kid",
-    images: ["https://babyshark.pk/wp-content/uploads/2023/08/Sea-Green-White-Check-Formal-Shirt-e1691492115756.jpg", "https://assets.ajio.com/medias/sys_master/root/20220906/oSra/631761e2aeb269dbb374942d/-473Wx593H-441019680-green-MODEL3.jpg", ],
-    color: ['Green White', 'Green'],
+    image: "https://uniworthdress.com/uploads/product/CS2274S..jpg", 
+    color: ['Green White'],
     size: ['XS', "M"]
   },
   {
@@ -45,8 +45,8 @@ export const trending = [
     price: 40,
     rating: 5.00,
     category: "Men",
-    images: ["https://alexcrane.co/cdn/shop/files/SunTee-Dusk_700x.jpg?v=1691418865", "https://alexcrane.co/cdn/shop/products/SunTee1_cbf699f3-f6cb-4310-b444-f73391118991_700x.jpg?v=1681843395", ],
-    color: ['Dusk', 'Bone'],
+    image: "https://thewarningband.com/cdn/shop/files/TW-AutomaticSun-Tee-Front.png?v=1712787348", 
+    color: ['Black'],
     size: ["XS", "S", "M", "L", "XL"]
   },
   {
@@ -55,8 +55,8 @@ export const trending = [
     price: 40,
     rating: 5.00,
     category: "Men",
-    images: ["https://naturetshirts.com/cdn/shop/products/mushroomsquare_1024x1024.png?v=1631037254", "https://earthlove.co/cdn/shop/products/SOL947_397x485_9368f5f5-ea51-4036-9585-3f0645d0dd55_1800x1800.jpg?v=1605662117", ],
-    color: ['Cream White', 'Dark Green'],
+    image: "https://images.teemill.com/rsgykdqq56y5jpsvigkdpv0ygywajmcetsednvqmvwtlnpiq.png.png?w=1080&h=auto", 
+    color: ['Cream White'],
     size: ["XS", "S", "M", "L", "XL"]
   },
   {
@@ -65,8 +65,8 @@ export const trending = [
     price: 40,
     rating: 5.00,
     category: "Men",
-    images: ["https://freshcleantees.com/cdn/shop/files/34103eb66efba2791a2f2ff20aeac4b1667e3359-1500x2000_737x980.jpg?v=1707436450", "https://freshcleantees.com/cdn/shop/files/aa94d46016f8f540d744004b3860338caf5b57f5-1500x2000_737x980.jpg?v=1707436428", ],
-    color: ['White', 'Charcoal'],
+    image: "https://assets.vogue.com/photos/61b8faa39f520c634b44641a/3:4/w_748%2Cc_limit/slide_6.jpg", 
+    color: ['White'],
     size: ["XS", "S", "M", "L", "XL"]
   },
   {
@@ -75,8 +75,8 @@ export const trending = [
     price: 40,
     rating: 5.00,
     category: "Men",
-    images: ["https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C81sv2r9w8FL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX425_.png", "https://m.media-amazon.com/images/I/A1vJUKBjc2L._CLa%7C2140%2C2000%7C81sv2r9w8FL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX425_.png", ],
-    color: ['Black', 'Navy Blue'],
+    image: "https://m.media-amazon.com/images/I/61v0PrYHbXL._AC_UY1100_.jpg",
+    color: ['White'],
     size: ["XS", "S", "M", "L", "XL"]
   },
    
@@ -84,44 +84,44 @@ export const trending = [
 
 export const men = [
   {
-    id:1,
+    id:9,
     title: "Gildan Crew",
     price: 30,
     rating: 4,
-    category: "Men",
+    category: "men",
     image: "https://www.wordans.ie/files/model_specifications/2016/6/17/282847/282847_original.png?1673622504",
     color: ['Black'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
   {
-    id:2,
+    id:10,
     title: "Fruit Loom",
     price: 30,
     rating: 4,
-    category: "Men",
+    category: "men",
     image: 'https://www.lawson-his.co.uk/media/catalog/product/cache/1/image/1200x/040ec09b1e35df139433887a97daa66f/6/1/x61082.jpg.pagespeed.ic.mI9-13HwTb.jpg',
     color: ['Navy'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
   {
-    id:3,
+    id:11,
     title: "Vineyard Vines",
     price: 30,
     rating: 4,
-    category: "Men",
+    category: "men",
     image: 'https://kriziamartin.com/cdn/shop/products/Screen_Shot_2019-03-07_at_7.46.35_PM.png?v=1552006394',
     color: ['White Cap'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "winter"
   },
   {
-    id:4,
+    id:12,
     title: "Under Armour",
     price: 30,
     rating: 5,
-    category: "Men",
+    category: "men",
     image: 'https://img01.ztat.net/article/spp-media-p1/2de8fc6caffe437494e4f1365698c9de/9b48c16642374d6cb89593e5c2759636.jpg?imwidth=1800',
     color: ['Marine Green'],
     size: ['XS', "S", "M", "L", "XL"],
@@ -131,46 +131,46 @@ export const men = [
 
 export const women = [
   {
-    id:1,
+    id:13,
     title: "Fleece Pullover Hoodie",
     price: 30,
     rating: 4.5,
     category: "Women",
-    images: ["https://m.media-amazon.com/images/I/719c1IxhrlL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/71kIBYCDMFL._AC_SX342_.jpg", ],
-    color: ['Black', 'Oatmeal Heather'],
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMraPyvW6C2XZlEW07USPivQn4d7rhnYks-ZDst491w&s", 
+    color: ['Black'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "winter"
   },
   {
-    id:2,
+    id:14,
     title: "Women's Benton",
     price: 30,
     rating: 4.5,
     category: "Women",
-    images: ["https://m.media-amazon.com/images/I/61d9p3PAR+L._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/81xEEJm-koL._AC_SX342_.jpg", ],
-    color: ['Black', 'Iceberg'],
+    image: "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1372111_561_f_om?wid=768&hei=806&v=1714468679",
+    color: ['Pink'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
   {
-    id:3,
+    id:15,
     title: "MEROKEETY Shirt",
     price: 30,
     rating: 4.5,
     category: "Women",
-    images: ["https://m.media-amazon.com/images/I/81W7dXAK4QL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/81h-UDqVeYL._AC_SX342_.jpg" ],
-    color: ['Coral Red', 'Dusty Navy'],
+    image: "https://m.media-amazon.com/images/I/61125Ytaq6L._AC_UY1100_.jpg", 
+    color: ['Navy'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
   {
-    id:4,
+    id:16,
     title: "Hanes Crewneck",
     price: 30,
     rating: 4.5,
     category: "Women",
-    images: ["https://m.media-amazon.com/images/I/716DeQPeSPL._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/71iSmcHZwbL._AC_SX385_.jpg" ],
-    color: ['Pale Pink', ' Navy Heather'],
+    image: "https://m.media-amazon.com/images/I/91wQ2i5rTpL._AC_UY1000_DpWeblab_.jpg", 
+    color: ['Pink'],
     size: ['XS', "S", "M", "L", "XL"],
     type: "summer"
   },
@@ -179,47 +179,47 @@ export const women = [
 
 export const kids = [
   {
-    id:1,
+    id:17,
     title: "Toddler Sleeve",
     price: 30,
     rating: 4.5,
     category: "kid",
-    images: ["https://m.media-amazon.com/images/I/81r0GjdCXQL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/81VsCxdznFL._AC_SX342_.jpg"],
-    color: ['Green', 'Pink Stripe'],
-    size: ['2T', "3T", "4T", "5T"],
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhpAL-MUuIOms_76YlNgLQR6u2u-Vrs9cXI_yvfqJGUw&s", 
+    color: ['Green'],
+    size: ['xs', "s"],
     type: "winter"
   },
   {
-    id:2,
+    id:18,
     title: "Layering Tee",
     price: 30,
     rating: 4.5,
     category: "kid",
-    images: ["https://m.media-amazon.com/images/I/71S3x3Xi-QL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/61ERNUtPT-L._AC_SX342_.jpg"],
-    color: ['Gumdrop', 'Sun Valley'],
-    size: ['2T', "3T", "4T", "5T"],
+    image: "https://images-na.ssl-images-amazon.com/images/I/61ERNUtPT-L._SLDPMOBCAROUSELAUTOCROP288221_MCnd_AC_SR462,693_.jpg", 
+    color: ['Sun Valley'],
+    size: ['xs', 's'],
     type: "winter"
   },
   {
-    id:3,
+    id:19,
     title: "Under Armour",
     price: 30,
     rating: 4.5,
     category: "kid",
-    images: ["https://m.media-amazon.com/images/I/914QpiX1aDL._AC_SX342_.jpg", "https://m.media-amazon.com/images/I/6120OqdLRLL._AC_SX342_.jpg"],
-    color: ['Midnight Navy', 'Black'],
-    size: ['2T', "3T", "4T", "5T"],
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR650uLMxfgYrXKuUvYLYbGie2mkWAK6EvVjKsaFtiWfg&s", 
+    color: ['Black'],
+    size: ['xs', 's'],
     type: "summer"
   },
   {
-    id:4,
+    id:20,
     title: "Puma",
     price: 30,
     rating: 4.5,
     category: "kid",
-    images: ["https://m.media-amazon.com/images/I/81OUwGBVYQL._AC_SX385_.jpg", "https://m.media-amazon.com/images/I/714ByCDaK8L._AC_SX385_.jpg"],
-    color: ['White', 'Black'],
-    size: ['2T', "3T", "4T", "5T"],
+    image: "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009773262_437Wx649H_202106130846381.jpeg",
+    color: ['White'],
+    size: ['xs', 's'],
     type: "summer"
   },
 ];
